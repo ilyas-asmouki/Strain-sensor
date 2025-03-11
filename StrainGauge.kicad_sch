@@ -1990,16 +1990,16 @@
 		(uuid "47219ad2-67e6-4337-8049-6151ea0911e0")
 	)
 	(junction
+		(at 199.39 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bc5ff7c-e1a7-44c0-bc8f-90ecd73216e4")
+	)
+	(junction
 		(at 59.69 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "734759dc-cee9-456d-a5c5-caedaa6a6201")
-	)
-	(junction
-		(at 199.39 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a7b7c94-9b60-40f7-a57a-ad96092e0522")
 	)
 	(junction
 		(at 40.64 127)
@@ -2011,19 +2011,13 @@
 		(at 189.23 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c5ba16ea-72fb-4259-95d3-e097247485f4")
+		(uuid "c3a9b45d-c88f-4aea-8454-371e89042a5f")
 	)
 	(junction
 		(at 68.58 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca90869b-c707-4a0a-8f33-e3498fb38ae1")
-	)
-	(junction
-		(at 199.39 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f25fc729-97ca-47a8-ac8a-e2c56803e8bf")
 	)
 	(wire
 		(pts
@@ -2137,6 +2131,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 72.39) (xy 60.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223a71a0-abde-4500-9f7c-b7df74696343")
+	)
+	(wire
+		(pts
 			(xy 95.25 63.5) (xy 95.25 64.77)
 		)
 		(stroke
@@ -2217,13 +2221,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 73.66) (xy 54.61 72.39)
+			(xy 199.39 53.34) (xy 199.39 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d09b074-a730-40bf-aa36-05967bb95a4f")
+		(uuid "3c50de60-546d-4e0d-96bb-4a391f0f536c")
 	)
 	(wire
 		(pts
@@ -2287,13 +2291,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 53.34) (xy 189.23 53.34)
+			(xy 60.96 82.55) (xy 60.96 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58e49252-c860-4d7b-b4c9-22dec8a0a7c9")
+		(uuid "555f74fe-7dc6-453a-bd92-2796668b82a7")
 	)
 	(wire
 		(pts
@@ -2357,23 +2361,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 53.34) (xy 199.39 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "707aabe3-e050-42bc-bdbb-11ea3e7c98bc")
-	)
-	(wire
-		(pts
 			(xy 199.39 52.07) (xy 199.39 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77bb63e4-3a07-453e-9534-e846a0b604bd")
+		(uuid "707aabe3-e050-42bc-bdbb-11ea3e7c98bc")
 	)
 	(wire
 		(pts
@@ -2477,7 +2471,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 72.39) (xy 50.8 72.39)
+			(xy 189.23 53.34) (xy 199.39 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa6ed81-b0b0-4b68-b463-91c459f82fa8")
+	)
+	(wire
+		(pts
+			(xy 50.8 72.39) (xy 60.96 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2604,16 +2608,6 @@
 			(type default)
 		)
 		(uuid "ced34ca5-76d6-43a7-87d9-0b2ce9ddc1f0")
-	)
-	(wire
-		(pts
-			(xy 199.39 50.8) (xy 199.39 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7d104be-d3d8-491a-bfea-2cf432e9348e")
 	)
 	(wire
 		(pts
@@ -2844,6 +2838,18 @@
 		(uuid ed56c518-8f20-4ad1-a1d6-c8d60890051b)
 	)
 	(rectangle
+		(start 176.53 96.52)
+		(end 255.27 158.75)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f04a1c61-b09b-4b71-97ea-cdd07f0efbb5)
+	)
+	(rectangle
 		(start 33.02 109.22)
 		(end 81.28 133.35)
 		(stroke
@@ -2875,6 +2881,18 @@
 		)
 		(uuid "3894402f-ac01-4a59-bf69-9ee66bffcd6d")
 	)
+	(text "Ibdg = Vr / (R0 + Rc), with Ibdg the current through the bridge, \nR the nominal strain gauge resistance, and Rc the current limiting\nresistance.\n\nThe output differential voltage Vd is given by:\nVd = -(ΔR / R) * (1 - Rc / (R + Rc)) * Vr = -K * (ΔR / R)\n\nTherefore we need to minimize Rc to get the best gain, but there is\nalso a lower bound for current consumption (max output current of\nREF2025 is 20 mA). Therefore if we set Ibdg = 10 mA, Vr = 2.5V and\nR = 120 Ω, we get:\n\nRc = 130 Ω, K = 0.48 V"
+		(exclude_from_sim no)
+		(at 177.8 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "5b72fa66-26a7-4096-a258-117f776e0673")
+	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
 		(at 40.132 135.128 0)
@@ -2884,6 +2902,16 @@
 			)
 		)
 		(uuid "6a18358d-5279-4c3d-a583-98aca758d92a")
+	)
+	(text "current limiting resistor"
+		(exclude_from_sim no)
+		(at 52.578 75.692 0)
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+		)
+		(uuid "6ddacf58-8ebe-45c4-bc88-0079d6068a2c")
 	)
 	(text "G = 1 + (100 kΩ / RG) "
 		(exclude_from_sim no)
@@ -2904,6 +2932,16 @@
 			)
 		)
 		(uuid "9df7a0d5-9552-47a6-839e-1b5b5c2c91b6")
+	)
+	(text "Calculation for current limiting resistor:"
+		(exclude_from_sim no)
+		(at 201.168 99.06 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "ae0f14d3-3773-4db2-ae69-d19c94b04f35")
 	)
 	(text "Amplification Stage"
 		(exclude_from_sim no)
@@ -2937,8 +2975,8 @@
 		)
 		(uuid "304c05fc-2811-49f5-b6eb-d814787136e6")
 	)
-	(label "Vbdg"
-		(at 60.96 64.77 180)
+	(label "Vbdg+"
+		(at 59.69 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2958,6 +2996,17 @@
 			(justify left bottom)
 		)
 		(uuid "32b4b7c6-5354-47b8-b662-447e6df283a7")
+	)
+	(label "Vbdg-"
+		(at 60.96 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61089bf1-4e6f-4035-ae62-e999db39d5a6")
 	)
 	(label "AREF"
 		(at 209.55 83.82 180)
@@ -3131,6 +3180,73 @@
 			(project "StrainGauge"
 				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a4a9485-3f9e-486f-9a29-a37ee4d6c746")
+		(property "Reference" "#PWR03"
+			(at 60.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bcbbe21-b875-421f-97b1-89ce4653f091")
+		)
+		(instances
+			(project "StrainGauge"
+				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3559,6 +3675,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 60.96 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "283c2a76-1e30-4533-b7be-20b4f27c9d9e")
+		(property "Reference" "R2"
+			(at 63.5 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "130R"
+			(at 63.5 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.182 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e7c1543-718c-441c-92d6-b9b686904d2b")
+		)
+		(pin "2"
+			(uuid "8aaea552-ca56-4f96-890c-8ae2deb1f9fd")
+		)
+		(instances
+			(project ""
+				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 90.17 121.92 180)
 		(unit 1)
@@ -3972,73 +4158,6 @@
 			(project "StrainGauge"
 				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 54.61 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6282d8e2-a043-4a07-bbd8-06b3f92663cc")
-		(property "Reference" "#PWR03"
-			(at 54.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d6ec372-ab1e-4d7e-a96d-78edc023ede2")
-		)
-		(instances
-			(project "StrainGauge"
-				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
