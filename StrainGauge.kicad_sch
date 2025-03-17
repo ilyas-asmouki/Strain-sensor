@@ -251,20 +251,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U3"
-				(at 4.572 7.874 0)
+			(property "Reference" "U"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "OPA310xDBV"
-				(at 4.572 5.334 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
@@ -364,7 +366,7 @@
 				)
 			)
 			(symbol "OPA310xDBV_1_1"
-				(pin power_out line
+				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "~"
@@ -6413,9 +6415,9 @@
 		)
 		(uuid "21fdfdcf-5160-4bf2-8d68-eef90df1ffe9")
 	)
-	(text "Stable 1.25V & 2.5V Reference"
+	(text "Stable 1.25V & 2.5V References"
 		(exclude_from_sim no)
-		(at 92.456 89.408 0)
+		(at 92.964 89.662 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6988,7 +6990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 124.1552 59.69 0)
 			(effects
 				(font
@@ -7125,7 +7127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 57.15 73.66 0)
 			(effects
 				(font
@@ -7279,7 +7281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 169.8752 81.28 0)
 			(effects
 				(font
@@ -7316,6 +7318,73 @@
 			(project "StrainGauge"
 				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 77.47 106.68 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "268e2cd5-839e-4920-a1d4-92a3b3adfee2")
+		(property "Reference" "H4"
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 80.01 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bcd9ff2-cc19-4428-a366-2b72884c7f33")
+		)
+		(instances
+			(project "StrainGauge"
+				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -7415,7 +7484,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 85.09 105.41 0)
 			(effects
 				(font
@@ -7449,6 +7518,73 @@
 			(project ""
 				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 59.69 106.68 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "32ca1efb-232a-4a0a-9dbc-4d78133b96c9")
+		(property "Reference" "H2"
+			(at 54.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 62.23 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 59.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 59.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55f309b6-c0cc-4fad-81d2-ad8b8962282f")
+		)
+		(instances
+			(project "StrainGauge"
+				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7547,7 +7683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 50.8 106.68 0)
 			(effects
 				(font
@@ -7613,7 +7749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.3152 59.69 0)
 			(effects
 				(font
@@ -7788,35 +7924,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 68.58 106.68 0)
+		(lib_id "Connector:TestPoint")
+		(at 142.24 104.14 180)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "564a5c42-fdc7-496b-b40e-89927d4ae165")
-		(property "Reference" "H3"
-			(at 63.5 104.14 0)
+		(fields_autoplaced yes)
+		(uuid "56aaeef5-f8d7-49a3-8f88-9b9e50c272e0")
+		(property "Reference" "TP4"
+			(at 144.78 106.1719 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 71.12 106.6799 0)
+		(property "Value" "TestPoint"
+			(at 144.78 108.7119 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 68.58 106.68 0)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7825,7 +7961,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 106.68 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7833,8 +7969,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 68.58 106.68 0)
+		(property "Description" "test point"
+			(at 142.24 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7843,12 +7979,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec46e7b5-d54e-405d-9e8a-588e0c853b95")
+			(uuid "603a28e0-6174-4a75-a40b-11777918dcbc")
 		)
 		(instances
 			(project "StrainGauge"
 				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
-					(reference "H3")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7965,7 +8101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PV36W103C01B00:TRIM_PV36W103C01B00"
 			(at 218.44 81.28 0)
 			(effects
 				(font
@@ -8171,7 +8307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 205.74 83.058 90)
 			(effects
 				(font
@@ -8281,6 +8417,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 200.66 46.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6511c176-0baf-4a80-9d29-932d7663245a")
+		(property "Reference" "JP1"
+			(at 200.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 200.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "22625eb7-7ed9-49bf-8f9a-630105751564")
+		)
+		(pin "2"
+			(uuid "a655d740-28b1-4e80-8098-e753116856a6")
+		)
+		(pin "1"
+			(uuid "758c8523-cfd1-45c8-95f3-2913ab615278")
+		)
+		(instances
+			(project "StrainGauge"
+				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 236.22 48.26 0)
 		(unit 1)
@@ -8307,7 +8514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.1852 52.07 0)
 			(effects
 				(font
@@ -8344,73 +8551,6 @@
 			(project "StrainGauge"
 				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 59.69 106.68 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a696c04-56e3-41fc-9cf5-0a4f798046aa")
-		(property "Reference" "H2"
-			(at 54.61 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 62.23 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 59.69 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f371bd00-f9a2-4add-aba2-77dd1a85cf3d")
-		)
-		(instances
-			(project "StrainGauge"
-				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8511,7 +8651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 113.03 104.14 0)
 			(effects
 				(font
@@ -8616,6 +8756,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 125.73 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dce473d-4b2e-4807-be07-4f68f675252f")
+		(property "Reference" "TP3"
+			(at 128.27 106.1719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 128.27 108.7119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "600f2f41-01eb-486c-81e5-d1eec1beebb7")
+		)
+		(instances
+			(project "StrainGauge"
+				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 254 78.74 0)
 		(unit 1)
@@ -8642,7 +8849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 254.9652 82.55 0)
 			(effects
 				(font
@@ -8982,7 +9189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 252.222 40.64 90)
 			(effects
 				(font
@@ -9025,73 +9232,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 142.24 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c95ec8b-d583-4454-95ba-ec76b1a7a241")
-		(property "Reference" "TP4"
-			(at 144.78 106.1719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 144.78 108.7119 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 142.24 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc5edb0e-4616-4017-a77d-e7350cc694f1")
-		)
-		(instances
-			(project "StrainGauge"
-				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 196.85 64.77 0)
 		(unit 1)
@@ -9118,7 +9258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 197.8152 68.58 0)
 			(effects
 				(font
@@ -9187,7 +9327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 227.0252 52.07 0)
 			(effects
 				(font
@@ -9297,73 +9437,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 77.47 106.68 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b375eb61-fa5b-465d-a2ba-3f5fce881a9c")
-		(property "Reference" "H4"
-			(at 72.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 80.01 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 77.47 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "314a550e-9337-41f1-aec1-a2a0f206f3eb")
-		)
-		(instances
-			(project "StrainGauge"
-				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 143.51 49.53 0)
 		(unit 1)
@@ -9455,7 +9528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.1552 81.28 0)
 			(effects
 				(font
@@ -9524,7 +9597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 113.9952 81.28 0)
 			(effects
 				(font
@@ -9561,73 +9634,6 @@
 			(project "StrainGauge"
 				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 125.73 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c421e27a-9ea6-4588-a2c8-5f43ffe16e5e")
-		(property "Reference" "TP3"
-			(at 128.27 106.1719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 128.27 108.7119 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 125.73 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21966e48-5a84-486e-a42a-5c0aa01546fd")
-		)
-		(instances
-			(project "StrainGauge"
-				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -9693,6 +9699,83 @@
 			(project "StrainGauge"
 				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA310xDBV")
+		(at 146.05 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7fed189-17b8-4ccb-9617-340fb93f536e")
+		(property "Reference" "U3"
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA310xDBV"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2310.pdf"
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High output current, Rail-to-Rail Input/Output, 3MHz GBW, Operational Amplifiers, integrated RFI/EMI filter, 1.5V to 5.5V supply, SOT-23-5"
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b48e6435-6436-4a90-a338-1fcd5eee535d")
+		)
+		(pin "5"
+			(uuid "a40b77c5-e1bc-4b42-a005-ac21aceb7450")
+		)
+		(pin "2"
+			(uuid "245ca520-9690-40ce-aa34-5ec80a4a87cb")
+		)
+		(pin "3"
+			(uuid "19f990c9-2d0f-45db-80d2-c385e4058deb")
+		)
+		(pin "4"
+			(uuid "40d2e430-f0bd-4b62-a0ed-440f67368b6f")
+		)
+		(instances
+			(project ""
+				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9898,6 +9981,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 68.58 106.68 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0851b91-e857-4921-bf0d-b65d45afe1eb")
+		(property "Reference" "H3"
+			(at 63.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 71.12 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a18caaa-3e47-449b-891c-eee116b27c72")
+		)
+		(instances
+			(project "StrainGauge"
+				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 95.25 49.53 0)
 		(unit 1)
@@ -9991,7 +10141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.6748 109.22 0)
 			(effects
 				(font
@@ -10059,7 +10209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 54.61 38.1 0)
 			(effects
 				(font
@@ -10132,7 +10282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 252.222 50.8 90)
 			(effects
 				(font
@@ -10175,77 +10325,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 200.66 46.99 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e015dae0-d2c5-4758-96ae-9658d718472f")
-		(property "Reference" "JP1"
-			(at 200.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at 200.66 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 200.66 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cb71edac-88e2-4a54-bc77-26617244f0cd")
-		)
-		(pin "2"
-			(uuid "d52d8e17-9405-4732-a594-db497632e46c")
-		)
-		(pin "1"
-			(uuid "5364ba37-1c87-452b-a036-b4e2b43b3a89")
-		)
-		(instances
-			(project "StrainGauge"
-				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 82.55 55.88 0)
 		(unit 1)
@@ -10273,7 +10352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 83.5152 59.69 0)
 			(effects
 				(font
@@ -10342,7 +10421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CLIK-Mate 502585:5025850470"
 			(at 45.72 50.8 0)
 			(effects
 				(font
@@ -10592,83 +10671,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA310xDBV")
-		(at 146.05 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2e7b0bd-8449-4f61-8db9-4a4c10b6f09d")
-		(property "Reference" "U3"
-			(at 150.622 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA310xDBV"
-			(at 150.622 67.056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 146.05 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2310.pdf"
-			(at 146.05 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High output current, Rail-to-Rail Input/Output, 3MHz GBW, Operational Amplifiers, integrated RFI/EMI filter, 1.5V to 5.5V supply, SOT-23-5"
-			(at 146.05 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "b4bdb77d-e6f6-42b2-a81d-a7730620c4b5")
-		)
-		(pin "4"
-			(uuid "25552b30-878d-4b33-b6c2-1f025cf4f1c4")
-		)
-		(pin "2"
-			(uuid "59969861-4dbc-4833-919e-8ab78069efb6")
-		)
-		(pin "1"
-			(uuid "4ba26f5c-97e8-4c2f-a88a-ebe30fd9aae6")
-		)
-		(pin "3"
-			(uuid "bb78dd73-6d6a-4959-8ab6-16d55bfb4265")
-		)
-		(instances
-			(project ""
-				(path "/1c58ffeb-c530-4561-bcfa-51e04fb88036"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 246.38 41.91 0)
 		(unit 1)
@@ -10890,7 +10892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.912 60.96 90)
 			(effects
 				(font
