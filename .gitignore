@@ -19,4 +19,6 @@ fp-info-cache
 *.ses
 *.xml
 *.csv
+*.zip
 .DS_Store
+
