@@ -4206,7 +4206,7 @@
 	)
 	(rectangle
 		(start 16.51 158.75)
-		(end 55.88 187.96)
+		(end 93.98 187.96)
 		(stroke
 			(width 0)
 			(type dash_dot)
@@ -4306,7 +4306,7 @@
 		)
 		(uuid "3894402f-ac01-4a59-bf69-9ee66bffcd6d")
 	)
-	(text "C1, C6: Digikey 865230542002\nC2, C3, C11: Digikey GRM21BR61C106KE15K\nC4, C9: Digikey CL10B105KA8NNNC\nC5, C7, C8, C10, C12: Digikey 0402B104K160CT\n\nR1: Digikey RC0402FR-07100RL\nR2, R3: Digikey RC0402JR-07100KL\nRV1: Digikey PV36W103C01B00\n\nU1: Digikey INA333AIDGKR\nU2: Digikey REF2025AIDDCR\nU3, U4: Digikey OPA310IDBVR\n\nJ1: Digikey 0878980454\nJ2: Digikey 5025850470"
+	(text "C1, C6: Digikey 865230542002\nC2, C3, C11: Digikey GRM21BR61C106KE15K\nC4, C9: Digikey CL10B105KA8NNNC\nC5, C7, C8, C10, C12: Digikey 0402B104K160CT\n\nR1: Digikey RC0402FR-07100RL\nR2, R3: Digikey RC0402JR-07100KL\nRV1: Digikey PV36W103C01B00\n\nU1: Digikey INA333AIDGKR\nU2: Digikey REF2025AIDDCR\nU3, U4: Digikey OPA310IDBVR\n\nJ1: Digikey 0878980454\nJ2: Digikey 5025850470, Digikey 5025780400 (mating connector), Digikey 5025790000 (crimps)"
 		(exclude_from_sim no)
 		(at 17.78 172.72 0)
 		(effects
