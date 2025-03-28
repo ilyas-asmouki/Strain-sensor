@@ -606,6 +606,7 @@
     },
     "net_colors": {
       "+2V5": "rgb(255, 0, 0)",
+      "+BATT": "rgb(0, 150, 0)",
       "/ADC": "rgb(255, 255, 0)",
       "/AREF": "rgb(255, 127, 0)",
       "/AmpOffset": "rgb(255, 100, 0)",
@@ -657,7 +658,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "PDFs/",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
