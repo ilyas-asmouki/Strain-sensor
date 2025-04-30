@@ -22,3 +22,5 @@ fp-info-cache
 *.zip
 .DS_Store
 /Project
+/PDFs/
+/Gerbers/
