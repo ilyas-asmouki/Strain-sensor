@@ -4525,6 +4525,18 @@
 		(uuid 694be650-521d-47e2-a95c-a16cef612811)
 	)
 	(rectangle
+		(start 209.55 29.21)
+		(end 260.35 53.34)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b037bbc5-641d-40c7-b9cb-bd4e582f41e2)
+	)
+	(rectangle
 		(start 97.79 27.94)
 		(end 207.01 72.39)
 		(stroke
@@ -4590,6 +4602,20 @@
 		)
 		(uuid "3894402f-ac01-4a59-bf69-9ee66bffcd6d")
 	)
+	(text "Testing Note #1:\n"
+		(exclude_from_sim no)
+		(at 211.074 31.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "57fd6a79-af59-4879-ae68-fff17406d021")
+	)
 	(text "C1, C6: Digikey 865230542002\nC2, C3, C11: Digikey GRM21BR61C106KE15K\nC4, C9: Digikey CL10B105KA8NNNC\nC5, C7, C8, C10, C12: Digikey 0402B104K160CT\n\nR1: Digikey RC0402FR-07100RL\nR2, R3: Digikey RC0402JR-07100KL\nRV1: Digikey PV36W103C01B00\n\nU1: Digikey INA333AIDGKR\nU2: Digikey REF2025AIDDCR\nU3, U4: Digikey OPA310IDBVR\n\nJ1: Digikey 0878980454\nJ2: Digikey 5025850470, Digikey 5025780400 (mating connector), Digikey 5025790000 (crimps)"
 		(exclude_from_sim no)
 		(at 17.78 172.72 0)
@@ -4611,6 +4637,18 @@
 			)
 		)
 		(uuid "6a18358d-5279-4c3d-a583-98aca758d92a")
+	)
+	(text "\n\nIn the PCB manufactured at EPFL, one of\nthe vias (connecting the VBATT pad to the rest\nof the circuit) probably broke, causing a bad\nconnection which lead to the rest of the board\nnot being powered. To fix this, an extra jumper\nwas used to connect the VBATT test pad to the\nC1 positive pin. The voltage regulating part of\nthe PCB works great."
+		(exclude_from_sim no)
+		(at 211.074 41.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "8cc08e0d-49a2-4c50-8bad-8bfe40a1ae17")
 	)
 	(text "G = 1 + (100 kΩ / RG) "
 		(exclude_from_sim no)
