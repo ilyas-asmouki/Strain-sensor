@@ -4537,6 +4537,18 @@
 		(uuid b037bbc5-641d-40c7-b9cb-bd4e582f41e2)
 	)
 	(rectangle
+		(start 209.55 55.88)
+		(end 260.35 76.2)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d0d4f99a-a4f9-46d4-9272-9619de43c837)
+	)
+	(rectangle
 		(start 97.79 27.94)
 		(end 207.01 72.39)
 		(stroke
@@ -4670,6 +4682,18 @@
 		)
 		(uuid "9df7a0d5-9552-47a6-839e-1b5b5c2c91b6")
 	)
+	(text "\n\nIt turns out that more than 1 via was broken,\nand another trace was broken (seen on\nmicroscope), so many extra jumpers were\nadded on the PCB. This probably wouldn't have\nhappened in a higher quality PCB manufacturing\nfacility, this could be added as a useful note\nfor manufacturing constaints in the future."
+		(exclude_from_sim no)
+		(at 211.074 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "bc49ef59-2cc6-42e7-b35a-89682d32f206")
+	)
 	(text "Amplification Stage"
 		(exclude_from_sim no)
 		(at 25.908 155.448 0)
@@ -4679,6 +4703,20 @@
 			)
 		)
 		(uuid "ea845db2-ae08-4388-8cc6-e5c8dc08462a")
+	)
+	(text "Testing Note #2:\n"
+		(exclude_from_sim no)
+		(at 211.074 58.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "eae68658-3f57-429b-b326-e76008a63055")
 	)
 	(text "Components List"
 		(exclude_from_sim no)
