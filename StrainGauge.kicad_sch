@@ -7,9 +7,9 @@
 	(title_block
 		(title "Strain Sensor")
 		(date "2025-03-11")
-		(rev "1")
+		(rev "1.0")
 		(company "EPFL")
-		(comment 4 "Added components list")
+		(comment 4 "Rev 1.0 complete.")
 	)
 	(lib_symbols
 		(symbol "865230542002:WCAP-AS5H_5X5.5"
@@ -4477,6 +4477,18 @@
 		(uuid "ff16b32f-88d1-46ea-b31b-a121b89ef79f")
 	)
 	(rectangle
+		(start 220.726 69.088)
+		(end 260.35 87.63)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 105c7308-8435-497e-ae95-a1be147af88b)
+	)
+	(rectangle
 		(start 16.51 93.98)
 		(end 142.24 153.67)
 		(stroke
@@ -4525,8 +4537,8 @@
 		(uuid 694be650-521d-47e2-a95c-a16cef612811)
 	)
 	(rectangle
-		(start 209.55 29.21)
-		(end 260.35 53.34)
+		(start 220.726 27.432)
+		(end 260.35 45.974)
 		(stroke
 			(width 0)
 			(type dash_dot)
@@ -4537,8 +4549,8 @@
 		(uuid b037bbc5-641d-40c7-b9cb-bd4e582f41e2)
 	)
 	(rectangle
-		(start 209.55 55.88)
-		(end 260.35 76.2)
+		(start 220.726 48.768)
+		(end 260.35 66.04)
 		(stroke
 			(width 0)
 			(type dash_dot)
@@ -4571,6 +4583,18 @@
 			(type none)
 		)
 		(uuid fba594dc-7eef-4cc7-a6d1-2131c82f75a1)
+	)
+	(text "Final testing note, the circuit is now fully\noperational, all units work and we get readings\nfrom the wheatstone bridge. One caveat being\nall broken vias (4 in total) being replaced by\njumpers/solder bridges. One final thing that\ncould be done is adding a buck converter\nto the battery to step down to 3V, so that the\nanalog value can be read by the motherboard."
+		(exclude_from_sim no)
+		(at 222.25 80.01 0)
+		(effects
+			(font
+				(size 1 1)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "07a77656-2c23-472b-b4d7-46997e4a7ffc")
 	)
 	(text "Choose whether to excite\nbridge with stable 2.5V\nor battery"
 		(exclude_from_sim no)
@@ -4616,7 +4640,7 @@
 	)
 	(text "Testing Note #1:\n"
 		(exclude_from_sim no)
-		(at 211.074 31.496 0)
+		(at 222.25 29.718 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4652,10 +4676,10 @@
 	)
 	(text "\n\nIn the PCB manufactured at EPFL, one of\nthe vias (connecting the VBATT pad to the rest\nof the circuit) probably broke, causing a bad\nconnection which lead to the rest of the board\nnot being powered. To fix this, an extra jumper\nwas used to connect the VBATT test pad to the\nC1 positive pin. The voltage regulating part of\nthe PCB works great."
 		(exclude_from_sim no)
-		(at 211.074 41.148 0)
+		(at 222.25 36.83 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(color 194 0 0 1)
 			)
 			(justify left)
@@ -4682,12 +4706,26 @@
 		)
 		(uuid "9df7a0d5-9552-47a6-839e-1b5b5c2c91b6")
 	)
-	(text "\n\nIt turns out that more than 1 via was broken,\nand another trace was broken (seen on\nmicroscope), so many extra jumpers were\nadded on the PCB. This probably wouldn't have\nhappened in a higher quality PCB manufacturing\nfacility, this could be added as a useful note\nfor manufacturing constaints in the future."
+	(text "Testing Note #3:\n"
 		(exclude_from_sim no)
-		(at 211.074 65.532 0)
+		(at 222.25 71.374 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "af5642b1-0b48-4470-9013-4452d6a21376")
+	)
+	(text "\n\nIt turns out that more than 1 via was broken,\nand another trace was broken (seen on\nmicroscope), so many extra jumpers were\nadded on the PCB. This probably wouldn't have\nhappened in a higher quality PCB manufacturing\nfacility, this could be added as a useful note\nfor manufacturing constaints in the future."
+		(exclude_from_sim no)
+		(at 222.25 57.15 0)
+		(effects
+			(font
+				(size 1 1)
 				(color 194 0 0 1)
 			)
 			(justify left)
@@ -4706,7 +4744,7 @@
 	)
 	(text "Testing Note #2:\n"
 		(exclude_from_sim no)
-		(at 211.074 58.166 0)
+		(at 222.25 51.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
